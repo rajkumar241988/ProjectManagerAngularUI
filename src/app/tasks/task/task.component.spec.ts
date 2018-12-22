@@ -1,4 +1,8 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
+import { FormsModule }   from '@angular/forms';
+import { MatTabsModule,MatDatepickerModule,MatNativeDateModule,MatButtonModule,MatFormFieldModule,MatInputModule } from '@angular/material';
+import { HttpClientModule } from "@angular/common/http";
+import { ToastrModule } from 'ngx-toastr';
 
 import { TaskComponent } from './task.component';
 
@@ -8,7 +12,9 @@ describe('TaskComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ TaskComponent ]
+      declarations: [ TaskComponent ],
+      imports: [FormsModule,MatDatepickerModule,HttpClientModule,ToastrModule.forRoot(),MatNativeDateModule
+      ]
     })
     .compileComponents();
   }));

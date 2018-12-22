@@ -23,6 +23,7 @@
     "@angular/router": "~7.1.0",
     "@ng-bootstrap/ng-bootstrap": "^4.0.0",
     "angular-dropdown-component": "^1.0.8",
+    "bootstrap": "^4.2.1",
     "core-js": "^2.5.4",
     "ngx-order-pipe": "^2.0.2",
     "ngx-toastr": "^9.1.1",
