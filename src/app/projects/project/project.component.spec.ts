@@ -3,6 +3,7 @@ import { FormsModule }   from '@angular/forms';
 import { MatTabsModule,MatDatepickerModule,MatNativeDateModule,MatButtonModule,MatFormFieldModule,MatInputModule } from '@angular/material';
 import { HttpClientModule } from "@angular/common/http";
 import { ToastrModule } from 'ngx-toastr';
+import { NgModule } from '@angular/core';
 
 import { ProjectComponent } from './project.component';
 

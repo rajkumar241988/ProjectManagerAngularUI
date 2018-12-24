@@ -36,9 +36,7 @@ describe('ProjectsComponent', () => {
   });
 
   it('should create the app', () => {
-    const fixture = TestBed.createComponent(ProjectsComponent);
-    const app = fixture.debugElement.componentInstance;
-    expect(app).toBeTruthy();
+    expect(component).toBeTruthy();
   });
 
 });

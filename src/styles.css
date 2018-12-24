@@ -53,22 +53,3 @@ div.validation-error{
     border: 1px solid #aaaaaa;
     background: #ffffff 50% 50% repeat-x;
 }
-
-@import '~bootstrap/dist/css/bootstrap.min.css';
-
-
-a:link{
-  color:blue;
-}
-a:visited{
-  color:purple;
-}
-a:hover{
-  color:orange;
-}
-a:focus{
-  color:Blue;
-}
-a:active{
-  color:red;
-}

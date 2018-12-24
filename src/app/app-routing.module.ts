@@ -7,16 +7,13 @@ import { TasksComponent } from './tasks/tasks.component';
 import { UsersComponent } from './users/users.component';
 import { TaskListComponent } from './tasks/task-list/task-list.component';
 
-const routes: Routes = [
-  {
-      path: '',
-      redirectTo: '/projects',
-      pathMatch: 'full'
-  },
+
+const routes: Routes = [  
   { path: 'projects', component: ProjectsComponent },
   { path: 'tasks', component: TasksComponent },
   { path: 'users', component: UsersComponent },
-   { path: 'tasklist', component: TaskListComponent }
+   { path: 'tasklist', component: TaskListComponent },
+   { path: '**', redirectTo: 'projects' }
 
 ];
 

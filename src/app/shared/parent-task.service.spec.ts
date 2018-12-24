@@ -8,6 +8,9 @@ describe('ParentTaskService', () => {
   beforeEach(() => TestBed.configureTestingModule({
     
       imports: [HttpClientModule
+      ],
+      providers: [
+        ParentTaskService
       ]
   }));
 

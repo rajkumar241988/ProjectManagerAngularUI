@@ -30,15 +30,7 @@ describe('AppComponent', () => {
     fixture.detectChanges();
   });
 
-  it('should change active index on click', () => {
-    // select the second link
-    let tabLink = fixture.debugElement.queryAll(By.css('a'))[1];
-    tabLink.nativeElement.click();
-    expect(fixture.componentInstance.activeLinkIndex).toBe(1);
-
-    // select the third link
-    tabLink = fixture.debugElement.queryAll(By.css('a'))[2];
-    tabLink.nativeElement.click();
-    expect(fixture.componentInstance.activeLinkIndex).toBe(2);
+  it('should create', () => {
+    expect(component).toBeTruthy();
   });
 });

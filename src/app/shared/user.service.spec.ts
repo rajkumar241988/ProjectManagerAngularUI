@@ -6,6 +6,9 @@ import { UserService } from './user.service';
 describe('UserService', () => {
   beforeEach(() => TestBed.configureTestingModule({
     imports: [HttpClientModule
+    ],
+    providers: [
+      UserService
     ]
   }));
 

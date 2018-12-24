@@ -7,6 +7,9 @@ import { ProjectService } from './project.service';
 describe('ProjectService', () => {
   beforeEach(() => TestBed.configureTestingModule({
     imports: [HttpClientModule
+    ],
+    providers: [
+      ProjectService
     ]
   }));
 

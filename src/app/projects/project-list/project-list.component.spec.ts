@@ -6,8 +6,8 @@ import { RouterTestingModule } from '@angular/router/testing';
 import { HttpClientModule } from "@angular/common/http";
 import { HttpClient } from "@angular/common/http";
 import { ToastrModule } from 'ngx-toastr';
-
 import { ProjectListComponent } from './project-list.component';
+import { NgModule } from '@angular/core';
 
 
 describe('ProjectListComponent', () => {
